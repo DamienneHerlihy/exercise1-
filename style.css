@@ -1,0 +1,71 @@
+h1 {
+	font-family: "courier new";
+	display: block;
+	text-align: center;
+	font-size: 50px;
+}
+
+img {
+    margin: auto;
+    padding: 1px;
+    width: 33%;
+}
+
+#pic{
+    display: block;
+}
+
+p {
+	font-family: "arial";
+	font-size: 75%;
+	display: block;
+	text-align: center;
+}
+
+body {
+	background-color: ivory;
+}
+
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: lemonchiffon;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: "arial"
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+
+@media (max-width: 960px) {
+ nav ul { display: block; }
+ nav select { display: inline-block; }
+}
+
+@media (max-width: 700px) {
+	p { 
+        display: inline-block;}
+    img {
+        display: block;   }
+}
